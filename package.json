@@ -1,0 +1,27 @@
+{
+  "name": "hw-1-cli-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "start:dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriiDotsenko/hw-1-CLI-application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuriiDotsenko/hw-1-CLI-application/issues"
+  },
+  "homepage": "https://github.com/YuriiDotsenko/hw-1-CLI-application#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
