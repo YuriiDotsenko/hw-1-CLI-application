@@ -3,12 +3,12 @@ const path = require("path");
 
 const contactsPath = path.join(__dirname, "./db/contacts.json");
 
-const id = 2;
+const id = "";
 
 const newData = {
-  name: "Bob Jonson",
-  email: "bobdjonson@mail.com",
-  phone: "(578) 789-4561",
+  name: "",
+  email: "",
+  phone: "",
 };
 
 const listContacts = async () => {
